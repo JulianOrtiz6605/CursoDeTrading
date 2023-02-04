@@ -3,28 +3,24 @@
     margin: 0;
     padding: 0;
     box-sizing:border-box;
-    text-transform: capitalize;
     font-family: Verdana, Geneva, Tahoma,sans-serif;
     font-weight: normal;
 }
 
 body {
-    /* background: #eee; */
-    background: #009FFF;  /* fallback for old browsers */
-    background: #43C6AC;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #F8FFAE, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #F8FFAE, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #009FFF;
+    background: -webkit-linear-gradient(to left, #F8FFAE, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #F8FFAE, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-  
+
 h1 {
     font-family: 'Poppins';
     position: relative;
     padding: 20px;
     align-items: center;
-    text-align: center;
+    text-align: center;      
     font-size: 3vw;
     color: #cf1818;
-    text-transform: uppercase;
     transition: all 0.2s ease-in-out;
     text-shadow: 0 0 5px #474a47;
 }
